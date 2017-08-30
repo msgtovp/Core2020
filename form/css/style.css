@@ -1,0 +1,98 @@
+.form-holder {
+    width: 460px;
+    margin: 10px auto;
+    background: #ecf0f1;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    font-size: 14px;
+}
+
+fieldset {
+    margin: 20px 0;
+    padding: 15px;
+    border: 2px solid #bdc3c7;
+    border-radius: 5px;
+}
+
+legend {
+    color: #2c3e50;
+}
+
+.row-content {
+    margin: 5px 0;
+}
+
+label {
+    display: block;
+    padding: 5px 0;
+}
+
+input[type=text],
+input[type=password],
+select {
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    display: inline-block;
+    border-bottom: 2px solid #bdc3c7;
+    margin: 10px 0;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    border-radius: 3px;
+}
+
+input[type=text]:hover,
+input[type=text]:focus,
+input[type=password]:hover,
+input[type=password]:focus,
+select:focus,
+select:hover {
+    border-color: #f1c40f;
+}
+
+.fullwidth {
+    width: 406px;
+}
+
+.halfwidth {
+    width: 180px;
+    display: inline-block;
+}
+
+.halfwidth:last-child {
+    margin-left: 22px;
+}
+.quaterwidth {
+    width: 120px;
+    margin-left: 10px;
+}
+.thirdwidth {
+    width: 270px;
+}
+.sameline{
+    display: inline-block;
+    cursor: pointer;
+}
+.sameline:last-child {
+    margin-left: 50px;
+}
+.btn {
+    margin: 0 auto;
+    display: block;
+    width: 100px;
+    border: 2px solid #f1c40f;
+    background: #f1c40f;
+    color: #fff;
+    padding: 10px 5px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+}
+.btn:hover, .btn:focus {
+    background-color: #f39c12;
+}

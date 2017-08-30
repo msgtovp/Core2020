@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Form Design - Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <form class="form-holder">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <div class="row-content">
+                <label for="username">Username</label>
+                <input type="text" class="fullwidth" name="username" id="username" placeholder="Username Here" />
+            </div>
+            <div class="row-content">
+                <label for="password">Password</label>
+                <input type="password" class="fullwidth" name="password" id="password" placeholder="Password Here" />
+            </div>
+            <div class="row-content">
+                <label>Name</label>
+                <input type="text" class="halfwidth" name="firstname" id="firstname" placeholder="First Name Here" />
+                <input type="text" class="halfwidth" name="lastname" id="lastname" placeholder="Last Name Here" />
+            </div>
+            <div class="row-content">
+                <label>Email Id</label>
+                <input type="text" class="thirdwidth" name="email" id="email" placeholder="Email ID Here" />
+                <select name="emailType" class="quaterwidth">
+                    <option selected>-- Select --</option>
+                    <option value="@gmail.com">@gmail.com</option>
+                    <option value="@hotmail.com">@hotmail.com</option>
+                    <option value="@yahoo.com">@yahoo.com</option>
+                    <option value="@outlook.com">@outlook.com</option>
+                </select>
+            </div>
+            <div class="row-content">
+                <div class="halfwidth">
+                    <label>Phone No</label>
+                    <input type="text" name="phone" id="phone" placeholder="Phone No Here" />
+                </div>
+                <div class="halfwidth">
+                    <label>Gender</label>
+                    <label class="sameline"><input type="radio" name="gender" value="Male"/>Male</label>
+                    <label class="sameline"><input type="radio" name="gender" value="Female"/>Female</label>
+                </div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Communication Address</legend>
+            <div class="row-content">
+                <label for="commdoorno">Door No</label>
+                <input type="text" class="fullwidth" name="commdoorno" id="commdoorno" placeholder="Door No Here" />
+            </div>
+            <div class="row-content">
+                <label for="commstreet">Street Name</label>
+                <input type="text" class="fullwidth" name="commstreet" id="commstreet" placeholder="Street Name Here" />
+            </div>
+            <div class="row-content">
+                <label for="commlocation">Location</label>
+                <input type="text" class="fullwidth" name="commlocation" id="commlocation" placeholder="Location Here" />
+            </div>
+            <div class="row-content">
+                <label for="commcity">City</label>
+                <input type="text" class="fullwidth" name="commcity" id="commcity" placeholder="City Here" />
+            </div>
+            <div class="row-content">
+                <label for="commstate">State</label>
+                <input type="text" class="fullwidth" name="commstate" id="commstate" placeholder="State Here" />
+            </div>
+            <div class="row-content">
+                <label for="commpin">Pincode</label>
+                <input type="text" class="fullwidth" name="commpin" id="commpin" placeholder="Pincode Here" />
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Permanent Address</legend>
+            <div class="row-content">
+                <label for="permdoorno">Door No</label>
+                <input type="text" class="fullwidth" name="permdoorno" id="permdoorno" placeholder="Door No Here" />
+            </div>
+            <div class="row-content">
+                <label for="permstreet">Street Name</label>
+                <input type="text" class="fullwidth" name="permstreet" id="permstreet" placeholder="Street Name Here" />
+            </div>
+            <div class="row-content">
+                <label for="permlocation">Location</label>
+                <input type="text" class="fullwidth" name="permlocation" id="permlocation" placeholder="Location Here" />
+            </div>
+            <div class="row-content">
+                <label for="permcity">City</label>
+                <input type="text" class="fullwidth" name="permcity" id="permcity" placeholder="City Here" />
+            </div>
+            <div class="row-content">
+                <label for="permstate">State</label>
+                <input type="text" class="fullwidth" name="permstate" id="permstate" placeholder="State Here" />
+            </div>
+            <div class="row-content">
+                <label for="permpin">Pincode</label>
+                <input type="text" class="fullwidth" name="permpin" id="permpin" placeholder="Pincode Here" />
+            </div>
+        </fieldset>
+        <input type="submit" class="btn" value="Save Data" />
+    </form>
+</body>
+
+</html>
