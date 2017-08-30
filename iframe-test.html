@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>iFrame Test</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
-    </head>
-    <body>
-        <iframe src="http://192.168.2.151/core" width="960px" height="680px"></iframe>
-    </body>
+
+<head>
+    <title>iFrame Test</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0"
+        width="{*swfWidth*}" height="{*swfHeight*}">
+            <param name="movie" value="flashvortex.swf" />
+            <param name="quality" value="best" />
+            <param name="menu" value="true" />
+            <param name="allowScriptAccess" value="sameDomain" />
+            <embed src="flashvortex.swf" quality="best" menu="true" width="1024px" height="200px" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" allowScriptAccess="sameDomain" />
+            </object>
+
+</body>
+
 </html>
