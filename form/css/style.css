@@ -63,20 +63,25 @@ select:hover {
 .halfwidth:last-child {
     margin-left: 22px;
 }
+
 .quaterwidth {
     width: 120px;
     margin-left: 10px;
 }
+
 .thirdwidth {
     width: 270px;
 }
-.sameline{
+
+.sameline {
     display: inline-block;
     cursor: pointer;
 }
+
 .sameline:last-child {
-    margin-left: 50px;
+    margin-left: 5px;
 }
+
 .btn {
     margin: 0 auto;
     display: block;
@@ -93,6 +98,51 @@ select:hover {
     -moz-transition: all ease 0.5s;
     transition: all ease 0.5s;
 }
-.btn:hover, .btn:focus {
+
+.btn:hover,
+.btn:focus {
     background-color: #f39c12;
+}
+
+.radio-btn>input[type=radio] {
+    opacity: 0;
+    height: 0;
+    width: 0;
+    margin: 0;
+    display: none;
+}
+
+.radio-btn>* {
+    display: table-cell;
+}
+
+.radio-btn>input[type=radio]+.icon {
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    border: 2px solid #bdc3c7;
+    background: transparent;
+    border-radius: 50%;
+}
+.radio-btn>input[type=radio]+.icon+.text {
+    padding: 5px;
+}
+.radio-btn>input[type=radio]+.icon>.filled {
+    background: transparent;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: block;
+}
+
+.radio-btn:hover>input[type=radio]+.icon {
+    border-color: #f1c40f;
+}
+
+.radio-btn>input[type=radio]:checked+.icon {
+    border-color: #f1c40f;
+}
+
+.radio-btn>input[type=radio]:checked+.icon>.filled {
+    background-color: #f1c40f;
 }
